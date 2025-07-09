@@ -108,12 +108,12 @@ Redoslijed obilaska gradova:
 
 ---
 
-## 📚 Usporedba s referencom
+## Usporedba s referencom
 
 Projekt koristi osnovni princip PSO algoritma preuzet iz:
 [Particle Swarm Optimization – Python Implementation](https://medium.com/@yahiazakaria445/particle-swarm-optimization-pso-algorithm-in-python-9960a1858435)
 
-### 🔄 Prilagodbe napravljene za TSP:
+### Prilagodbe napravljene za TSP:
 
 | Element         | Referentni kod                 | Ovaj projekt                        |
 | --------------- | ------------------------------ | ----------------------------------- |
@@ -129,7 +129,7 @@ Naš projekt je **praktična primjena PSO-a na realni problem (TSP)**, pri čemu
 
 ## Autor
 
-Lovro Luka Matan
-Fakultet informatike u Puli
+Lovro Luka Matan  
+Fakultet informatike u Puli  
 Predmet: Robotika  
 2025.
