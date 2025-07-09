@@ -1,0 +1,9 @@
+# Ignoriraj virtualno okruženje
+venv/
+
+# Python cache fajlovi
+__pycache__/
+*.pyc
+
+# Rezultati izvođenja
+results/
