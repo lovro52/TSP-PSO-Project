@@ -1,12 +1,12 @@
 # 🛫 TSP – Particle Swarm Optimization (PSO)
 
-## 📌 Opis problema
+## Opis problema
 
 Ovaj projekt koristi **Particle Swarm Optimization (PSO)** algoritam za rješavanje **problema trgovačkog putnika (TSP)** za 50 stvarnih europskih gradova. Cilj je pronaći najkraću moguću rutu koja posjećuje sve gradove točno jednom i vraća se na početak. Gradovi su definirani geografskim koordinatama (latituda i longituda), a udaljenosti se računaju **Haversine formulom**.
 
 ---
 
-## 📦 Struktura projekta
+## Struktura projekta
 
 ```
 .
@@ -25,7 +25,7 @@ Ovaj projekt koristi **Particle Swarm Optimization (PSO)** algoritam za rješava
 
 ---
 
-## 🚀 Pokretanje projekta
+## Pokretanje projekta
 
 ### 1. Kloniranje repozitorija
 
@@ -57,14 +57,14 @@ python src/tsp_pso.py
 
 ---
 
-## 🗃️ Ulazni podaci
+## Ulazni podaci
 
 - `data/coords.csv`: CSV datoteka s gradovima i njihovim koordinatama  
   Kolone: `City`, `Latitude`, `Longitude`
 
 ---
 
-## 📈 Izlazni rezultati
+## Izlazni rezultati
 
 - `results/route_plot.png`: Vizualizacija rute (putanja kroz sve gradove)
 - `results/best_distance.txt`: Ukupna duljina rute i redoslijed obilaska
@@ -72,7 +72,7 @@ python src/tsp_pso.py
 
 ---
 
-## 🔧 Parametri PSO algoritma
+## Parametri PSO algoritma
 
 | Parametar      | Vrijednost                                  |
 | -------------- | ------------------------------------------- |
@@ -83,7 +83,7 @@ python src/tsp_pso.py
 
 ---
 
-## 📊 Primjer izlaza (terminal)
+## Primjer izlaza (terminal)
 
 ```
 Najbolja udaljenost: 11842.73 km
@@ -98,7 +98,7 @@ Redoslijed obilaska gradova:
 
 ---
 
-## ✅ Implementirane funkcionalnosti
+## Implementirane funkcionalnosti
 
 - Računanje udaljenosti Haversine formulom
 - Matrica udaljenosti među svim gradovima
@@ -111,7 +111,7 @@ Redoslijed obilaska gradova:
 ## 📚 Usporedba s referencom
 
 Projekt koristi osnovni princip PSO algoritma preuzet iz:
-👉 [Particle Swarm Optimization – Python Implementation](https://medium.com/@yahiazakaria445/particle-swarm-optimization-pso-algorithm-in-python-9960a1858435)
+[Particle Swarm Optimization – Python Implementation](https://medium.com/@yahiazakaria445/particle-swarm-optimization-pso-algorithm-in-python-9960a1858435)
 
 ### 🔄 Prilagodbe napravljene za TSP:
 
@@ -127,8 +127,9 @@ Naš projekt je **praktična primjena PSO-a na realni problem (TSP)**, pri čemu
 
 ---
 
-## ✍️ Autor
+## Autor
 
-Ime i prezime  
-Fakultet / Predmet: Robotika  
+Lovro Luka Matan
+Fakultet informatike u Puli
+Predmet: Robotika  
 2025.
